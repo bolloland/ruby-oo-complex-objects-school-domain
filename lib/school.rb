@@ -16,7 +16,7 @@ class School
         @roster
     end    #sort by grade and name
 
-    def grade(year)
+    def grade(year) #test gives an argument for the grade/year
         @roster[year] #returns all values from that key
     end
 
